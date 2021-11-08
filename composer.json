@@ -13,7 +13,8 @@
     }
   ],
   "require": {
-    "jiannei/laravel-response": "^4.0"
+    "jiannei/laravel-response": "^4.0",
+    "tomeet/reviews": "^1.0"
   },
   "extra": {
     "laravel": {
