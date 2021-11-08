@@ -26,7 +26,7 @@ class CertificationServiceProvider extends ServiceProvider
     {
         $this->setupRoutes($this->app->router);
         $this->publishes([
-            \dirname(__DIR__) . '/config/certification.php' => config_path('certification.php'), // 发布配置文件到 laravel 的config 下
+            \dirname(__DIR__) . '/config/certification.php' => config_path('tomeet/certification.php'), // 发布配置文件到 laravel 的config 下
             \dirname(__DIR__) . '/migrations/' => database_path('migrations')
         ], 'tomeet-certification');
     }
