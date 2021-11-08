@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use EloquentFilter\Filterable;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Tomeet\Certification\ModelFilters\CertificationOfficialFilter;
-use Tomeet\Review\Traits\HasReviews;
+use Tomeet\Reviews\Traits\HasReviews;
 
 class CertificationOfficial extends Model
 {
