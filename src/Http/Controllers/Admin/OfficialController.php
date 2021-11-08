@@ -6,7 +6,7 @@ use Tomeet\Certification\Http\Controllers\Controller;
 use Tomeet\Certification\Models\CertificationOfficial;
 use Illuminate\Http\Request;
 use Jiannei\Response\Laravel\Support\Facades\Response;
-use Tomeet\Certification\Http\Resources\Admin\V1\OfficialResource as CertificationResource;
+use Tomeet\Certification\Http\Resources\Admin\OfficialResource as CertificationResource;
 use Exception;
 
 class OfficialController extends Controller
