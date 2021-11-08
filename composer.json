@@ -1,0 +1,18 @@
+{
+    "name": "tomeet/certification",
+    "autoload": {
+        "psr-4": {
+            "Tomeet\\Certification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tomeet",
+            "email": "tomeet@sohu.com"
+        }
+    ],
+    "require": {
+        "jiannei/laravel-response": "^4.0",
+
+    }
+}
